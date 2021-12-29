@@ -35,6 +35,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #3882f6;
+}
+
 .subtext,
 .text,
 .image {
@@ -68,7 +72,8 @@ button {
 }
 
 button:hover {
-  background-color: #5498f9;
+  background-color: #e5e7eb;
+  color: #3882f6;
   cursor: pointer;
 }
 
@@ -121,6 +126,11 @@ button:hover {
   height: 180px;
   border: 5px solid #3882f6;
   border-radius: 5px;
+}
+
+.card-placeholder:hover {
+  cursor: pointer;
+  transform: scale(1.05);
 }
 
 .card-subtext {
