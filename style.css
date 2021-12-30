@@ -36,7 +36,7 @@ a {
 }
 
 a:hover {
-  color: #3882f6;
+  text-decoration: underline;
 }
 
 .subtext,
